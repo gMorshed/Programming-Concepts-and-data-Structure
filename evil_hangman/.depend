@@ -1,0 +1,2 @@
+main.o: main.cpp hangman.h
+hangman.o: hangman.cpp hangman.h

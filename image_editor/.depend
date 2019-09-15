@@ -1,0 +1,2 @@
+image_editor.o: image_editor.cpp image_editor.h pixel.h
+pixel.o: pixel.cpp pixel.h

@@ -1,0 +1,40 @@
+
+Names: Alexi Drgac CSCI 261-A
+       Gazi Morshed CSCI 261-A
+Project Title: Go Fishing
+
+PROBLEM DESCRIPTION:
+We created a program similar to the game Go Fish. The program involves two players; the user and the computer.
+Each player will initially be dealt 7 cards, then each player will take turns asking if the other player has
+a certain card in their deck. If the other player does, then that player has to give that card up to the other player.
+If the other player doesn't have that specific card in their deck, then the player has to draw a card from the deck.
+Any pairs that come up in the process are set aside for the final score compare. The object of the game will be to end 
+up with the most pairs at the end of the game. The final stats are written to a file for the purpose of a game log.
+Each time the player plays a game in the game loop, their stats are kept.
+
+PROGRAM DOCUMENTATION:
+Program needs to be run with makefile. All the inputs and outputs are done throught the cloud 9 c++ shell no sfml is necessary.
+Follow the instructions that has been provided in the beginning of the game. An invalid input type can crash the program ( ex: a string in 
+term of an integer.) Type in the asked for keyword to proceed on with the program. User will will be prompted when an input is needed.
+If another programmer wishes to modify the program, such as to a four of a kind pair, the programmer should start with checkForPair() 
+function. A good place to add features to the game would be in the data memebers of the player class. A couple of features we wuld have 
+added if we had time would have been a GUI with SFML, drawing a fishy if you win :). A multiplayer mode that is played through the GUI
+as an interactive interface. 
+
+TEST:
+1. Initially entering the game: If user enters something other than yes, then program ends. TEST PASSED
+2. CheckForPairs() function: successfully compares with the computer and outputs if it has found a 
+                             match or not. TEST PASSED
+3. GoFish() function: successfully returns and extracts a card from the back of the deck. TEST PASSED
+4. makeDeck() and shuffleDeck() functions: These functions successfully makes and shuffles a deck of cards, we
+                                           verified this by printing out the deck several times.
+5. gameinfo file: file is successfully written to each time a game is played, keeping a game log with the time
+                  that the game ended.
+    
+REFLECTIONS:
+We both learned that it is important to understand the details of the project before starting. We also learned how to 
+use callee functions part of a class. We also learned that modular programming is very important, sometimes it is a good 
+idea to walk away from a pogram and come back later if you cannot figure out the problem. We also learned how to use a struct
+in a class. Most importantly, Gazi learned how to play Go Fish! What we would do differently would be to a choose a more 
+interesting and interactive project, suh as something that uses GUI. 
+
